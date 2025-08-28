@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Notnli personal blog
+title: Notnli posts
 email: nigellimofficial@gmail.com
 description: Personal endeavours and write-ups, mostly related to software dev and cybersecurity
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,10 +26,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  notnl
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
