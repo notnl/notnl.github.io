@@ -30,6 +30,9 @@ See Github Repo :
 
 https://github.com/notnl/Mal-JS
 
+See Deployment :
+
+https://mal-js.click/
 
 [![Screenshot-2025-09-04-at-1-25-49-AM.png](https://i.postimg.cc/V6Y6cnq0/Screenshot-2025-09-04-at-1-25-49-AM.png)](https://postimg.cc/7CWD3CQq)
 
