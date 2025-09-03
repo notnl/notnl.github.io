@@ -161,7 +161,7 @@ We don't need to do this if we are able to find the proper gadgets, this is only
 
 
 
-
+---
 #  **Replace mov Gadgets**
 
 #### Lets say we want to mov eax, ecx; However, there are no such instructions that can be used easily. What gadgets can we use to replace this mov instruction?
@@ -191,6 +191,7 @@ sub eax, ecx;
 
 {% endhighlight %}
 
+---
 # **Truncate Found ROP gadgets**
 
 If the gadget is very lengthy, you could remove all instructions before by simply pointing to it.
